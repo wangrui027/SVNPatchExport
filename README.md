@@ -2,6 +2,22 @@
 
 本程序基于`SVN`仓库对比两个版本之间的差异，并将新增和修改的文件下载到本地打包为`zip`文件，同时新建`init.xml`，标记被删除的文件，从而实现补丁包的自动构建。
 
+## 运行环境
+
+`jdk8`
+
+`maven-3.2.5`
+
+## 第三方依赖
+
+`svnkit`：实现SVN差异对比和文件下载
+
+`commons-io`：简化IO流操作
+
+`commons-compress`：实现zip打包
+
+`dom4j`：XML文件构建
+
 ## 配置
 
 ```properties
